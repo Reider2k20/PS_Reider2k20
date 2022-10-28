@@ -139,7 +139,7 @@ class Human:
         home_indexes = "Home indexes"
         print(f"{home_indexes:^50}", "\n")
         print(f"Food = {self.home.food}")
-        print(f"Food = {self.home.cat_food}")
+        print(f"Food for cat = {self.home.cat_food}")
         print(f"Mess = {self.home.mess}")
         car_indexes = f"{self.car.brand} car indexes"
         print(f"{car_indexes:^50}", "\n")
@@ -177,6 +177,7 @@ class Human:
             print(f"I don't have a job, I'm going to get a job {self.job.job} with salary {self.job.salary}")
         if self.is_alive() == False:
             return False
+
         self.days_indexes(day)
 
         dice = random.randint(1, 5)
