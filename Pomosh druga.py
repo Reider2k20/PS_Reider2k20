@@ -117,6 +117,7 @@ class Human:
         print(f"Fuel = {self.car.fuel}")
         print(f"Strength = {self.car.strength}")
 
+
     def is_alive(self):
         if self.gladness < 0:
             print("Depression…")
