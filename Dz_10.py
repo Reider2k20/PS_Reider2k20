@@ -52,5 +52,4 @@ cur.execute(f"UPDATE first_table SET name='{temperature}' WHERE rowid=2;")
 
 connection.commit()
 
-
 connection.close()
