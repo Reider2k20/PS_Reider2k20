@@ -330,7 +330,6 @@ class Cat:
 
 
 
-
 nick = Human(name = "Nick")
 for day in range(0, 365):
     if nick.live(day) == False:
