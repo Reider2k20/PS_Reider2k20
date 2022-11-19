@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from colorama import Fore
 
-a = float(25)
+a = float(0)
 print(Fore.GREEN +"Hello user, this program is designed so that you do not strain your already busy brain so much.")
 print("The program will do the calculations instead of you, first choose what exactly you need.")
 print(Fore.LIGHTGREEN_EX +'After the solved example, you can write the received answer to the variable "a" and to use it later, just write "a" instead of the number in the example.')
