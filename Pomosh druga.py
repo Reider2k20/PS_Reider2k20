@@ -11,11 +11,11 @@ def counter(a):
         print(Fore.BLUE + f'USD = {b / USD_in_UAH}$')
         print(f'EUR = {b / EUR_in_UAH}€')
     elif a == 2:
-        b = float(input('Print your amount of USD: '))
+        b = float(input(Fore.MAGENTA +'Print your amount of USD: '))
         print(Fore.BLUE + f'UAH = {b * USD_in_UAH}₴')
         print(f'EUR = {b * USD_in_UAH / EUR_in_UAH}€')
     elif a == 3:
-        b = float(input('Print your amount of EUR: '))
+        b = float(input(Fore.MAGENTA +'Print your amount of EUR: '))
         print(Fore.BLUE + f'USD = {b*EUR_in_UAH/USD_in_UAH}$')
         print(f'UAH = {b*EUR_in_UAH}₴')
 
